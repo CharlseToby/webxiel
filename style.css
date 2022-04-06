@@ -111,11 +111,11 @@ p {
   transition: 1s;
 }
 
-#status-check input {
+.status-check input {
   outline: none;
   padding: 5px 5px;
-  border-radius: 6px;
-  border: 1px solid;
+  border-radius: 8px;
+  border: none;
 }
 #close-status-check{
   align-self: flex-end;
@@ -143,7 +143,7 @@ header {
   margin: 1rem 0;
   text-transform: capitalize;
   background-color: #fff;
-
+  text-decoration: none;
 }
 h1 {
   font-size: 2rem;
@@ -233,7 +233,7 @@ form input {
   height: 65vh;
   width: 75%;
   position: absolute;
-  bottom: 95px;
+  top: 450px;
   right: 20;
 }
 
