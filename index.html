@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Webxiel</title>
+</head>
+<body>
+  <div class="container">
+    <div id="main">
+      <div class="mainContent">
+        <div id="registered">
+          <h2>Registered?</h2>
+          <button class="btn-status" id="check-status">check status</button>
+        </div>
+        <!--  Hidden, unless clicked -->
+        <div class="status-check">
+          <h3 id="close-status-check">X</h3>
+          <p>Please enter Your phone number</p>
+          <input type="text">
+          <a class="btn-status" id="continue" href="./statusCheck.html">continue</a>
+        </div>
+        <header>
+          <h1>WebXiel</h1>
+          <!-- <div class="banner">
+            <img src="./images/refer.jpg" alt="">
+          </div> -->
+          <h2>Stand a chance to win $100 by performing few simple tasks</h2>
+          <a href="#form" class="btn">get started for free</a>
+        </header>
+        <div class="webxiel">
+          <div class="webxiel-img flex-item">
+            <img src="./images/developer.jpeg" alt="developer">
+          </div>
+          <div class="webxiel-services flex-item">
+            <h2>webxiel</h2>
+            <p>web development</p>
+            <p>mobile app design</p>
+            <p>tech support and solutions</p>
+          </div>
+        </div>
+        <div id="form">
+          <form action="">
+            <div class="form-control">
+              <label for="name">Full Name: </label>
+              <input type="text" placeholder="Full Name" id="name">
+            </div>
+            <div class="form-control">
+              <label for="phone">Phone Number: </label>
+              <input type="phone" placeholder="Phone Number" id="phone">
+            </div>
+            <button type="submit" class="btn">generate link</button>
+          </form>
+        </div>
+        <div id="referral">
+          <p id="referral-link"></p>
+          <button class="btn">Copy link</button>
+        </div>
+
+      </div>
+    </div>
+    <div id="aside">
+      <div id="showPeople-image">
+        <img src="./images/people.svg" alt="people">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
